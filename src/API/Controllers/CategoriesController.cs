@@ -4,7 +4,7 @@ using Domain.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApiWithMongoDB.API.Controllers
+namespace API.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]

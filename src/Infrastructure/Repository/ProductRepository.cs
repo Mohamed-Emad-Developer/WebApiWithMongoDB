@@ -4,7 +4,7 @@ using Domain.ViewModels;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using Domain.Extension;
-namespace WebApiWithMongoDB.Infrastructure.Repository
+namespace Infrastructure.Repository
 {
     public class ProductRepository : IProductRepository
     {

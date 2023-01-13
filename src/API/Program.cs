@@ -1,6 +1,6 @@
 using Domain.IRepository;
 using Domain.ViewModels;
-using WebApiWithMongoDB.Infrastructure.Repository;
+using Infrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
