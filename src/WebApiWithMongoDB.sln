@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{255B8D31-5F94-4DC8-AC1D-4F066E1DBB77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FBB6E9FA-E90E-4412-9559-AD57DB63AA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithMongoDB.API", "WebApiWithMongoDB.API\WebApiWithMongoDB.API.csproj", "{3546EC1B-996C-4193-A7F8-379711C9C4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithMongoDB.Infrastructure", "WebApiWithMongoDB.Infrastructure\WebApiWithMongoDB.Infrastructure.csproj", "{8A6977E2-758C-4577-9B47-E6777A4F1BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3546EC1B-996C-4193-A7F8-379711C9C4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3546EC1B-996C-4193-A7F8-379711C9C4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3546EC1B-996C-4193-A7F8-379711C9C4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3546EC1B-996C-4193-A7F8-379711C9C4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6977E2-758C-4577-9B47-E6777A4F1BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6977E2-758C-4577-9B47-E6777A4F1BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6977E2-758C-4577-9B47-E6777A4F1BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6977E2-758C-4577-9B47-E6777A4F1BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3546EC1B-996C-4193-A7F8-379711C9C4FA} = {255B8D31-5F94-4DC8-AC1D-4F066E1DBB77}
+		{8A6977E2-758C-4577-9B47-E6777A4F1BFF} = {FBB6E9FA-E90E-4412-9559-AD57DB63AA0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C60E716-2E43-43D8-B465-CE343B5F39EC}
+	EndGlobalSection
+EndGlobal
